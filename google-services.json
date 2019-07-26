@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "199134068885",
+    "firebase_url": "https://facepostapp.firebaseio.com",
+    "project_id": "facepostapp",
+    "storage_bucket": "facepostapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199134068885:android:ee1c1d99dda0abfa",
+        "android_client_info": {
+          "package_name": "com.ufinix.FacePost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199134068885-92us3vd1jhs83dbl7ppa6ii81b2emtt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6_pazwbpdsE3YfgtvKLJx3OOInrRD8SQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199134068885-92us3vd1jhs83dbl7ppa6ii81b2emtt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

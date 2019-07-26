@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    app:cardElevation="2dp"
+    android:layout_height="290dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/postImage"
+			android:src="@drawable/photo"
+			android:layout_width="match_parent"
+			android:layout_height="143dp"
+			android:scaleType="centerCrop"
+			android:adjustViewBounds="true"
+        />
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+				android:textSize="16sp"
+				android:layout_marginLeft="16dp"
+				android:layout_marginRight="16dp"
+				android:layout_marginTop="16dp"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="James Bond"
+				android:textStyle="bold"
+				android:id="@+id/usernameTextView" />
+
+            <TextView
+				android:layout_marginLeft="16dp"
+				android:layout_marginRight="16dp"
+				android:layout_marginTop="5dp"
+				android:layout_height="wrap_content"
+				android:maxLines="3"
+				android:layout_width="match_parent"
+				android:text="Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. Take the course"
+				android:id="@+id/postBodyTextView" />
+
+               
+            <View
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#e2e2e2"/>
+
+            <RelativeLayout
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+					android:layout_alignParentLeft="true"
+					android:id="@+id/likeButton"
+					android:layout_centerVertical="true"
+					android:layout_width="26dp"
+					android:layout_height="26dp"
+					android:src="@drawable/like"/>
+
+                  <ImageView
+                android:layout_toRightOf="@+id/likeButton"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/commentButton"
+                android:layout_centerVertical="true"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@drawable/comment"/>
+
+                <TextView
+					android:layout_centerVertical="true"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:layout_alignParentRight="true"
+					android:text="21 Likes"
+					android:id="@+id/likeTextView" />
+
+            </RelativeLayout>
+
+          </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView >
