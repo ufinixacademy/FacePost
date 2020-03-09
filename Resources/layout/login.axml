@@ -32,7 +32,8 @@
             android:id="@+id/emailLoginText"
             android:layout_height="wrap_content"
             android:layout_width="match_parent">
-            <EditText
+            
+            <android.support.design.widget.TextInputEditText
                  android:theme="@style/AppBlue"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
@@ -49,8 +50,9 @@
             android:id="@+id/passwordLoginText"
             android:layout_height="wrap_content"
             android:layout_width="match_parent">
-            <EditText
-                 android:theme="@style/AppBlue"
+            
+            <android.support.design.widget.TextInputEditText
+                android:theme="@style/AppBlue"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
                 android:layout_width="match_parent"
